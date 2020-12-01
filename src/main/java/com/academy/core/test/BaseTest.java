@@ -39,8 +39,8 @@ public class BaseTest {
                 driver = new ChromeDriver();
                 break;
 
-            case "firefox":
-                System.setProperty("webdriver.gecko.driver", prop.getProperty("driver.firefox"));
+            case "edge":
+                System.setProperty("webdriver.edge.driver", prop.getProperty("driver.edge"));
                 driver = new FirefoxDriver();
                 break;
         }
